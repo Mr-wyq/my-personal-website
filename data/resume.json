@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "Rich",
+    "title": "AI 产品经理 / AI Product Manager",
+    "avatar": "/avatar.png",
+    "summary": "四年产品经理工作经验，主导多个 AI 项目 0-1 落地。具备覆盖产品全生命周期的能力模型。致力于将 LLM 能力转化为实际的业务价值。",
+    "email": "w_youqian@163.com",
+    "phone": "13596288140",
+    "location": "深圳 | Shenzhen",
+    "stats": [
+      { "label": "经验年限", "value": "4+", "unit": "Years" },
+      { "label": "落地项目", "value": "10+", "unit": "Projects" },
+      { "label": "合作企业", "value": "500+", "unit": "Clients" }
+    ],
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/wangyouqian"
+      }
+    ]
+  },
+  "philosophy": [
+    {
+      "title": "数据驱动决策",
+      "desc": "在 AI 时代，数据是产品进化的燃料。我坚持以定量分析为骨干，确保每一个功能点都有迹可循。"
+    },
+    {
+      "title": "AI 赋能体验",
+      "desc": "AI 不离开发，产品不离业务。我专注于将大模型能力无缝嵌入工作流，而非生硬的技术堆砌。"
+    },
+    {
+      "title": "用户视野意识",
+      "desc": "技术外壳下的温度，来自对用户的细腻洞察。我追求在效率工具中融入人性化的情感反馈。"
+    }
+  ],
+  "experience": [
+    {
+      "company": "星瀚科技有限公司",
+      "position": "AI 产品经理",
+      "startDate": "2025.08",
+      "endDate": "2025.11",
+      "summary": "负责公司新产品的整体规划与落地，管理产品从定义、设计、研发到交付的全生命周期。",
+      "highlights": [
+        "主导核心项目：XX 本地智能体开发平台。",
+        "与 AMD 达成战略合作，联合参展 2025 上海进博会并获奖。",
+        "完成公司新产品 MVP 研发并完成首单客户验证，助力公司完成 A 轮融资。"
+      ]
+    },
+    {
+      "company": "卡莱特云科技有限公司",
+      "position": "产品经理",
+      "startDate": "2023.11",
+      "endDate": "2025.05",
+      "summary": "负责公司核心软件产品的规划、重构与交付，推动产品架构与研发流程的系统性升级。",
+      "highlights": [
+        "主导核心项目：XX LED 显示控制系统重构。",
+        "建立标准化软件开发流程，系统维护成本降低 50%，客诉率降低 70%。"
+      ]
+    },
+    {
+      "company": "富士康科技集团",
+      "position": "AI 产品经理",
+      "startDate": "2021.09",
+      "endDate": "2023.09",
+      "summary": "服务集团智能制造与数字化转型，负责 AI 技术在生产与质检场景中的产品化落地。",
+      "highlights": [
+        "主导核心项目：XX 图像智能检测平台。",
+        "用户工作效率提高 300%；集团 iPhone 业务年生产成本降低超百万；入选智能制造四级标杆企业优秀案例。"
+      ]
+    }
+  ],
+  "education": {
+    "university": "烟台大学",
+    "major": "软件工程",
+    "degree": "本科",
+    "startDate": "2017.09",
+    "endDate": "2021.06",
+    "courses": "主修《软件需求分析》、《JAVA 程序设计》、《数据结构》等。毕设为《“掌上课堂”手机 APP 设计与研发》。"
+  },
+  "skills": {
+    "tools": ["Axure", "Figma", "Cursor", "GPT4"],
+    "core": ["产品路线图规划", "0-1 产品落地", "技术原理解析", "大模型应用开发", "跨团队协作"]
+  },
+  "others": {
+    "hobbies": ["桌球", "阅读", "跑步", "电影"],
+    "certs": ["最美志愿者 (抗击疫情)"]
+  },
+  "projects": [
+    {
+      "name": "本地智能体开发平台",
+      "company": "星瀚科技有限公司",
+      "description": "为企业提供私有化部署合作 AI Agent 开发环境，支持国产化硬件适配。",
+      "technologies": ["LLM", "Agentic Workflow", "Local Deployment"],
+      "link": "#",
+      "officialLink": "https://example.com",
+      "icon": "Layout",
+      "status": "completed",
+      "details": {
+        "background": "结合市场趋势与公司融资节奏，规划并研发新一代本地化 AI 智能体开发平台。",
+        "work": "负责平台整体产品架构设计，制定 Roadmap 及 MVP 计划。",
+        "results": "完成 MVP 研发与交付，首单落地，助力 A 轮融资。",
+        "images": ["/project1.png"]
+      }
+    },
+    {
+      "name": "LED 显示控制系统重构",
+      "company": "卡莱特云科技有限公司",
+      "description": "全面升级老旧系统，建立标准化开发流程。大幅降低了维护成本与客诉率。",
+      "technologies": ["System Architecture", "UI/UX Redesign"],
+      "link": "#",
+      "officialLink": "https://example.com",
+      "icon": "Database",
+      "status": "completed",
+      "details": {
+        "background": "针对代码混乱、文档缺失的老系统进行彻底重构。",
+        "work": "逻辑溯源，需求文档化，制定 0-1 开发流程规范。",
+        "results": "系统维护成本降低 50%，客诉率降低 70%。",
+        "images": ["/project2.png"]
+      }
+    }
+  ],
+  "ui": {
+    "logo": "Rich.ai",
+    "logoHover": "Rich的指挥中心",
+    "systemInit": "INITIALIZING COMMAND CENTER // RICH",
+    "contact": "联系 Rich",
+    "experience": "职业生涯 / Experience",
+    "projects": "实战案例 / Portfolio",
+    "capabilities": "核心专长 / Skills",
+    "education": "教育背景 / Education",
+    "philosophy": "产品哲学 / Philosophy",
+    "others": "其他 / Others",
+    "connect": "即刻联系",
+    "resumeInfo": "详情",
+    "projectDetail": "项目解析",
+    "mainAchievements": "核心成果",
+    "visitWebsite": "访问官网",
+    "toBeUpdated": "敬请期待",
+    "associatedWith": "所属单位",
+    "skillsTools": "常用工具",
+    "skillsCore": "核心能力"
+  }
+}

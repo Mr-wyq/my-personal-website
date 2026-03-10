@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Rich",
+    "title": "AI Product Manager",
+    "avatar": "/avatar.png",
+    "summary": "4 years of PM experience, leading multiple 0-1 AI products. Full-lifecycle capabilities. Dedicated to bridging the gap between LLM potential and business reality.",
+    "email": "w_youqian@163.com",
+    "phone": "13596288140",
+    "location": "Shenzhen",
+    "stats": [
+      { "label": "Experience", "value": "4+", "unit": "Years" },
+      { "label": "Product Landed", "value": "10+", "unit": "Projects" },
+      { "label": "Collaborated", "value": "500+", "unit": "Clients" }
+    ],
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/wangyouqian"
+      }
+    ]
+  },
+  "philosophy": [
+    {
+      "title": "Data-Driven Decision",
+      "desc": "In the AI era, data is fuel. I rely on quantitative analysis to ensure every feature has a clear path for growth."
+    },
+    {
+      "title": "AI Empowered UX",
+      "desc": "Focusing on seamless LLM integration into workflows rather than brute-force tech stacking."
+    },
+    {
+      "title": "Human-Centric Vision",
+      "desc": "The warmth under the tech shell comes from delicate human insights. I pursue humanized feedback in efficiency tools."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Xinghan Technology",
+      "position": "AI Product Manager",
+      "startDate": "2025.08",
+      "endDate": "2025.11",
+      "summary": "Overall planning and landing of new AI products, managing the full lifecycle.",
+      "highlights": [
+        "Led core project: Localized Agent Development Platform.",
+        "Strategic partnership with AMD, exhibited at 2025 CIIE.",
+        "Assisted in completing Series A funding through successful MVP validation."
+      ]
+    },
+    {
+      "company": "Colorlight Cloud",
+      "position": "Product Manager",
+      "startDate": "2023.11",
+      "endDate": "2025.05",
+      "summary": "Core software planning, refactoring, and systemic upgrade of Architecture and R&D processes.",
+      "highlights": [
+        "Led LED Display Control System refactor.",
+        "Maintenance costs down 50%, complaints down 70%."
+      ]
+    }
+  ],
+  "education": {
+    "university": "Yantai University",
+    "major": "Software Engineering",
+    "degree": "Bachelor",
+    "startDate": "2017.09",
+    "endDate": "2021.06",
+    "courses": "Requirements Analysis, Data Structures, JAVA, etc. Graduation: 'Palm Classroom' Mobile App."
+  },
+  "skills": {
+    "tools": ["Axure", "Figma", "Cursor", "GPT4"],
+    "core": ["Roadmap Planning", "0-1 Landing", "Technical Analysis", "LLM App Dev", "Cross-team Collaboration"]
+  },
+  "others": {
+    "hobbies": ["Billiards", "Reading", "Running", "Movies"],
+    "certs": ["Most Beautiful Volunteer (Anti-epidemic)"]
+  },
+  "projects": [
+    {
+      "name": "Local Agent Platform",
+      "company": "Xinghan Technology",
+      "description": "Enterprise-grade private AI Agent environment.",
+      "technologies": ["LLM", "Agentic Workflow", "Local Deployment"],
+      "link": "#",
+      "officialLink": "https://example.com",
+      "icon": "Layout",
+      "status": "completed",
+      "details": {
+        "background": "Planning next-gen localized AI agent dev platform.",
+        "work": "Product architecture design and MVP Roadmap.",
+        "results": "MVP delivered, Series A funding secured.",
+        "images": ["/project1.png"]
+      }
+    }
+  ],
+  "ui": {
+    "logo": "Rich.ai",
+    "logoHover": "Rich's Command Center",
+    "systemInit": "INITIALIZING COMMAND CENTER // RICH",
+    "contact": "Contact Rich",
+    "experience": "Career / Experience",
+    "projects": "Portfolio / Projects",
+    "capabilities": "Skills / Capabilities",
+    "education": "Education Background",
+    "philosophy": "AI PM Philosophy",
+    "others": "Others",
+    "connect": "Let's Talk",
+    "resumeInfo": "Details",
+    "projectDetail": "Analysis",
+    "mainAchievements": "Key Results",
+    "visitWebsite": "Visit Site",
+    "toBeUpdated": "Coming Soon",
+    "associatedWith": "Affiliation",
+    "skillsTools": "Tools & Stack",
+    "skillsCore": "Core Capabilities"
+  }
+}
