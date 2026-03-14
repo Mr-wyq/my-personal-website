@@ -1,66 +1,97 @@
 "use client";
-
+ 
 import { motion } from "framer-motion";
-import { useLanguage } from "./LanguageContext";
-import { Lightbulb, Target, Users } from "lucide-react";
-
+import { Route, RefreshCcw, Layers, Grid } from "lucide-react";
+import { useLanguage } from "@/components/LanguageContext";
+import TiltCard from "@/components/ui/TiltCard";
+ 
+const ICONS = [Route, RefreshCcw, Layers, Grid];
+const COLORS = ["var(--cyan)", "var(--purple)", "var(--green)", "var(--blue)"];
+const BG_COLORS = [
+  "rgba(6,182,212,0.08)", 
+  "rgba(139,92,246,0.08)", 
+  "rgba(16,185,129,0.08)",
+  "rgba(59,130,246,0.08)"
+];
+ 
 export default function Philosophy() {
   const { data } = useLanguage();
-  const philosophy = data.philosophy;
+  const philosophy: any[] = data.philosophy ?? [];
   const { ui } = data;
-
-  if (!philosophy) return null;
-
-  const icons = [<Target className="w-8 h-8" />, <Lightbulb className="w-8 h-8" />, <Users className="w-8 h-8" />];
-
+ 
+  if (!philosophy.length) return null;
+ 
   return (
-    <section id="philosophy" className="py-24 relative z-10 w-full max-w-6xl mx-auto px-4">
+    <section id="philosophy" className="section max-w-7xl mx-auto px-6">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-100px" }}
-        transition={{ duration: 0.8 }}
-        className="mb-16 text-center"
+        viewport={{ once: true, margin: "-80px" }}
+        transition={{ duration: 0.7 }}
+        className="mb-16"
       >
-        <h2 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight">
+        <p className="text-mono text-[var(--cyan)] uppercase mb-4 tracking-[0.3em]">
+          // {data.ui.mentalModel || "Mental Model"}
+        </p>
+        <h2 className="text-5xl md:text-6xl font-black text-white tracking-tighter italic uppercase">
           {ui.philosophy}
         </h2>
-        <div className="h-1.5 w-24 bg-gradient-to-r from-[var(--accent-cyan)] to-[var(--accent-purple)] mx-auto rounded-full" />
       </motion.div>
-
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {philosophy.map((item: any, index: number) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: index * 0.1 }}
-            className="group p-10 rounded-[2.5rem] bg-[#080808] border border-white/5 hover:border-[var(--accent-cyan)]/40 transition-all duration-500 relative overflow-hidden"
-          >
-            {/* Visual background decoration */}
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[var(--accent-cyan)]/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
-            
-            <div className="relative z-10 space-y-6">
-              <div className="inline-flex items-center justify-center p-4 rounded-2xl bg-white/5 text-[var(--accent-cyan)] group-hover:bg-[var(--accent-cyan)] group-hover:text-black transition-all duration-500 shadow-xl border border-white/5">
-                {icons[index % icons.length]}
-              </div>
-              
-              <div className="space-y-4">
-                <h3 className="text-2xl font-bold text-white group-hover:text-[var(--accent-cyan)] transition-colors">
-                  {item.title}
-                </h3>
-                <p className="text-gray-400 text-lg leading-relaxed group-hover:text-gray-300 transition-colors">
-                  {item.desc}
-                </p>
-              </div>
-            </div>
-            
-            <div className="absolute top-6 right-8 text-4xl font-black text-white/5 font-mono group-hover:text-[var(--accent-cyan)]/10 transition-colors">
-              0{index + 1}
-            </div>
-          </motion.div>
-        ))}
+ 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {philosophy.map((item: any, i: number) => {
+          const Icon = ICONS[i % ICONS.length];
+          const color = COLORS[i % COLORS.length];
+          const bg = BG_COLORS[i % BG_COLORS.length];
+ 
+          return (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: i * 0.1 }}
+              className="group"
+            >
+              <TiltCard className="h-full" intensity={5}>
+                <div className="glass p-10 rounded-[2.5rem] h-full relative overflow-hidden flex flex-col gap-8 border border-white/5 hover:border-white/10 transition-all duration-500">
+                  {/* Big number watermark */}
+                  <span className="absolute -top-4 -right-4 text-[12rem] font-black text-white/[0.02] select-none pointer-events-none group-hover:text-white/[0.04] transition-all duration-700 italic">
+                    {i + 1}
+                  </span>
+ 
+                  <div className="relative z-10 flex flex-col md:flex-row items-start gap-8">
+                    {/* Icon Container */}
+                    <div
+                      className="w-20 h-20 rounded-[1.5rem] flex items-center justify-center flex-shrink-0 relative group-hover:scale-110 transition-transform duration-500 shadow-2xl"
+                      style={{ background: bg, border: `1px solid ${color}30` }}
+                    >
+                      <div className="absolute inset-0 blur-2xl opacity-20 bg-current rounded-full" style={{ color }} />
+                      <Icon className="w-10 h-10 relative z-10" style={{ color }} />
+                    </div>
+ 
+                    {/* Content */}
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-2 h-2 rounded-full bg-current" style={{ color }} />
+                        <h3 className="text-2xl font-bold text-white tracking-tight">{item.title}</h3>
+                      </div>
+                      <p className="text-[var(--gray-light)] leading-relaxed text-lg font-light opacity-80 group-hover:opacity-100 transition-opacity duration-500">
+                        {item.desc}
+                      </p>
+                    </div>
+                  </div>
+ 
+                  {/* Bottom accent glow */}
+                  <div 
+                    className="absolute bottom-0 left-0 w-full h-[2px] opacity-0 group-hover:opacity-100 transition-all duration-700"
+                    style={{ background: `linear-gradient(90deg, transparent, ${color}, transparent)` }}
+                  />
+                </div>
+              </TiltCard>
+            </motion.div>
+          );
+        })}
       </div>
     </section>
   );

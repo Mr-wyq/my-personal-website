@@ -9,7 +9,7 @@ type Language = "zh" | "en";
 interface LanguageContextType {
     language: Language;
     toggleLanguage: () => void;
-    data: typeof zhData;
+    data: any;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);

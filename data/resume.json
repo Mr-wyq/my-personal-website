@@ -1,71 +1,94 @@
 {
   "basics": {
     "name": "Rich",
-    "title": "AI 产品经理 / AI Product Manager",
-    "avatar": "/avatar.png",
-    "summary": "四年产品经理工作经验，主导多个 AI 项目 0-1 落地。具备覆盖产品全生命周期的能力模型。致力于将 LLM 能力转化为实际的业务价值。",
+    "title": "AI 产品经理",
+    "vision": "锚定智能浪潮，重构未来世界",
+    "avatar": "/rich_avatar.png",
+    "summary": "经验：四年产品沉淀，主导多款AI项目 0 — 1 落地。\n底色：软工背景，具备严密的逻辑思维与结构化表达。\n洞察：跟进AI技术发展，敏锐捕捉行业奇点与商业机会。\n特质：终身学习者，平衡极致理性思考与细腻用户同理心。",
     "email": "w_youqian@163.com",
     "phone": "13596288140",
-    "location": "深圳 | Shenzhen",
+    "location": "深圳",
     "stats": [
-      { "label": "经验年限", "value": "4+", "unit": "Years" },
-      { "label": "落地项目", "value": "10+", "unit": "Projects" },
-      { "label": "合作企业", "value": "500+", "unit": "Clients" }
+      {
+        "label": "经验年限",
+        "value": "4+",
+        "unit": "Years"
+      },
+      {
+        "label": "落地项目",
+        "value": "10+",
+        "unit": "Projects"
+      },
+      {
+        "label": "合作企业",
+        "value": "500+",
+        "unit": "Clients"
+      }
     ],
     "profiles": [
       {
-        "network": "GitHub",
-        "url": "https://github.com/wangyouqian"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rich-wang-ai"
       }
     ]
   },
   "philosophy": [
     {
-      "title": "数据驱动决策",
-      "desc": "在 AI 时代，数据是产品进化的燃料。我坚持以定量分析为骨干，确保每一个功能点都有迹可循。"
+      "title": "场景驱动设计",
+      "desc": "AI 产品不从模型能力出发，而从真实问题出发。先理解业务流程，再设计数据与系统结构，让 AI 能真正嵌入生产环境，而不是停留在演示层。"
     },
     {
-      "title": "AI 赋能体验",
-      "desc": "AI 不离开发，产品不离业务。我专注于将大模型能力无缝嵌入工作流，而非生硬的技术堆砌。"
+      "title": "数据闭环意识",
+      "desc": "AI 产品的核心不是模型，而是数据系统。通过构建数据采集、标注、训练与反馈的完整链路，让模型能力在真实环境中持续进化。"
     },
     {
-      "title": "用户视野意识",
-      "desc": "技术外壳下的温度，来自对用户的细腻洞察。我追求在效率工具中融入人性化的情感反馈。"
+      "title": "系统工程视角",
+      "desc": "AI 产品不是单一功能，而是由数据、模型、服务与应用组成的复杂系统。产品设计需要从系统架构层面思考，确保系统能够稳定运行并持续迭代。"
+    },
+    {
+      "title": "平台化产品观",
+      "desc": "随着大模型的发展，软件正在从应用走向平台。未来的产品形态将由模型、工具、Agent 与工作流构成，产品的价值在于构建可扩展的能力平台。"
     }
   ],
   "experience": [
     {
-      "company": "星瀚科技有限公司",
+      "company": "星漪科技有限公司",
+      "website": "https://www.ripple-aistation.com/",
       "position": "AI 产品经理",
       "startDate": "2025.08",
       "endDate": "2025.11",
-      "summary": "负责公司新产品的整体规划与落地，管理产品从定义、设计、研发到交付的全生命周期。",
+      "summary": "全面统筹核心AI产品线 0-1 的商业化落地，负责产品线整体规划设计、产品全生命周期管理。",
       "highlights": [
-        "主导核心项目：XX 本地智能体开发平台。",
-        "与 AMD 达成战略合作，联合参展 2025 上海进博会并获奖。",
-        "完成公司新产品 MVP 研发并完成首单客户验证，助力公司完成 A 轮融资。"
+        "平台级架构设计： 完成 0 - 1 的产品架构设计，构建了兼容大模型&MCP工具&流程引擎的集成方案，打造了高扩展性的本地 AI 生态基座 。",
+        "供应商巨头联动： 主导与 AMD 的深度技术交流，基于 AMD 395平台完成了本地推理性能的极限优化；相关成果获 2025 上海进博会联合创新大奖。",
+        "资本与商业验证： 在 3 个月内完成 MVP 交付并跑通首个“私有知识库问答”闭环场景，实现首单商业化落地，作为核心筹码助力公司成功斩获数千万元 A 轮融资 。"
       ]
     },
     {
       "company": "卡莱特云科技有限公司",
-      "position": "产品经理",
+      "website": "https://www.colorlightinside.com/",
+      "position": "高级产品经理",
       "startDate": "2023.11",
       "endDate": "2025.05",
-      "summary": "负责公司核心软件产品的规划、重构与交付，推动产品架构与研发流程的系统性升级。",
+      "summary": "负责公司新业务线的战略预研与核心产品生态的架构重构，驱动业务的标准化转型与效能升级。",
       "highlights": [
-        "主导核心项目：XX LED 显示控制系统重构。",
-        "建立标准化软件开发流程，系统维护成本降低 50%，客诉率降低 70%。"
+        "战略预研：主导新业务“视频控台”的产品调研。通过对 Barco、Novastar 等行业巨头进行进行竞品分析，输出调研报告，为公司产品线的战略布控提供了核心决策数据支撑。",
+        "产品重构：完成核心 LED 显示控制系统 0 - 1 的交互与架构升级，溯源黑盒逻辑并建立标准化需求文档等。彻底解决代码冗余与资产缺失问题 。",
+        "标准定义：主导并推动并建立软件开发生命周期（SDLC）规范，实现了产研协作从“经验驱动”向“体系驱动”的标准化转型。",
+        "指标飞跃：实现系统维护成本降低 50%，客诉率降低 70% ，显著提升核心产品线的技术壁垒与交付稳定性 。"
       ]
     },
     {
       "company": "富士康科技集团",
-      "position": "AI 产品经理",
+      "website": "https://www.foxconn.com.cn/",
+      "position": "AI 产品经理 ",
       "startDate": "2021.09",
       "endDate": "2023.09",
-      "summary": "服务集团智能制造与数字化转型，负责 AI 技术在生产与质检场景中的产品化落地。",
+      "summary": "服务集团智能制造与数字化转型。负责 AI 技术在生产、质检及智能穿戴场景中的商业化落地，推动系统从业务调研到稳定量产的全流程闭环。",
       "highlights": [
-        "主导核心项目：XX 图像智能检测平台。",
-        "用户工作效率提高 300%；集团 iPhone 业务年生产成本降低超百万；入选智能制造四级标杆企业优秀案例。"
+        "工业 AI 全栈落地：主导图像智能检测平台项目落地及迭代。构建从数据采集、存储、分析、应用的完整 AI 闭环体系 。通过 AI 技术深度赋能 iPhone 质检产线，实现自动化检测方案的端到端落地，推动产线从经验驱动向算法驱动的智能化转型 。",
+        "软硬一体生态构建： 统筹智能工业眼镜项目，负责应用层软件定义及系统、网络、研发、测试等跨职能资源的整体调度。成功搭建全球生产协同的工业级穿戴设备通讯网络。",
+        "核心商业价值转化：凭借卓越的软硬一体化方案优势，成功助力公司斩获 Apple Vision Pro 独家生产订单。图像智能检测平台项目实现年生产成本降低超 500 万元 ，并入选集团智能制造四级标杆案例。"
       ]
     }
   ],
@@ -75,69 +98,232 @@
     "degree": "本科",
     "startDate": "2017.09",
     "endDate": "2021.06",
-    "courses": "主修《软件需求分析》、《JAVA 程序设计》、《数据结构》等。毕设为《“掌上课堂”手机 APP 设计与研发》。"
+    "coreCourses": [
+      "软件需求分析",
+      "JAVA 程序设计",
+      "数据结构与算法",
+      "操作系统",
+      "数据库原理"
+    ],
+    "thesis": "掌上课堂手机 APP 设计与研发"
   },
   "skills": {
-    "tools": ["Axure", "Figma", "Cursor", "GPT4"],
-    "core": ["产品路线图规划", "0-1 产品落地", "技术原理解析", "大模型应用开发", "跨团队协作"]
+    "product": [
+      "产品规划",
+      "需求分析",
+      "PRD设计",
+      "产品路线图",
+      "敏捷项目管理"
+    ],
+    "ai": [
+      "AI Agent设计",
+      "RAG系统",
+      "AI工作流",
+      "模型能力评估"
+    ],
+    "tech": [
+      "Transformer理解",
+      "Prompt Engineering",
+      "AI系统架构",
+      "向量数据库原理"
+    ],
+    "tools": [
+      "Figma",
+      "Axure",
+      "Antigravity",
+      "ChatGPT",
+      "Coze",
+      "PingCode",
+      "Openclaw"
+    ]
   },
   "others": {
-    "hobbies": ["桌球", "阅读", "跑步", "电影"],
-    "certs": ["最美志愿者 (抗击疫情)"]
+    "hobbies": [
+      "桌球",
+      "阅读",
+      "跑步",
+      "电影"
+    ],
+    "certs": [
+      "最美志愿者 (抗击疫情)"
+    ]
   },
   "projects": [
     {
-      "name": "本地智能体开发平台",
-      "company": "星瀚科技有限公司",
-      "description": "为企业提供私有化部署合作 AI Agent 开发环境，支持国产化硬件适配。",
-      "technologies": ["LLM", "Agentic Workflow", "Local Deployment"],
-      "link": "#",
-      "officialLink": "https://example.com",
-      "icon": "Layout",
-      "status": "completed",
+      "name": "图像智能检测平台",
+      "company": "富士康科技集团",
+      "status": "Deployed",
+      "officialLink": "",
+      "icon": "Cpu",
+      "description": "Q-Stream 是基于 YOLOv5 与大数据链路 (Kafka/Hadoop) 研发的工业级 AI 视觉平台。通过集成自动化采集、分布式存储与模型分析等功能，取代传统人眼质检，实现 iPhone 生产线 7*24h 机台拦截。",
+      "technologies": [
+        "模型训练",
+        "YOLOv5",
+        "Kafka",
+        "Hadoop",
+        "自动化采集",
+        "分布式存储",
+        "MES系统"
+      ],
       "details": {
-        "background": "结合市场趋势与公司融资节奏，规划并研发新一代本地化 AI 智能体开发平台。",
-        "work": "负责平台整体产品架构设计，制定 Roadmap 及 MVP 计划。",
-        "results": "完成 MVP 研发与交付，首单落地，助力 A 轮融资。",
-        "images": ["/project1.png"]
+        "background": "传统人工质检模式覆盖率低、误判率高，拦截严重滞后。为支撑集团“智能制造四级标杆企业”战略，亟需通过 AI 视觉方案攻克大规模生产环境下的质量管理瓶颈。",
+        "work": "**工业级数据链路构建**：主导业务场景调研，从 0 到 1 搭建点到端的图像采集与传输网络，实现海量生产数据的自动化、高可靠同步。\n**工业AI全栈架构设计**：构建从数据采集、存储、分析、应用的完整 AI 闭环体系。系统判定结果精准对接 MES 系统。\n**标准化数据治理体系**：制定严苛的图像标注规范与验收流程，通过规范化治理保障算法训练数据的高质量供给，从源头提升模型鲁棒性。\n**算法调优与业务耦合**：深度参与 AI 模型评估与算法适配，协同算法工程师完成 YOLOv5 模型训练、调试与部署，支持 Double Check 人工复检逻辑，确保生产拦截的极高准确率。",
+        "results": "**经济效益**：推动 iPhone 业务实现年生产成本降低超 500 万元。\n**效能飞跃**：用户工作效率提升 300%，实现产线不良机台 100% 自动化覆盖与主动拦截。\n**行业认可**：助力集团获评“智能制造四级标杆企业”优秀案例，确立了 AI 在超大规模制造场景落地的标准范式。",
+        "images": [
+          "/project_arch.png",
+          "/project_glasses_01.png"
+        ]
       }
     },
     {
-      "name": "LED 显示控制系统重构",
-      "company": "卡莱特云科技有限公司",
-      "description": "全面升级老旧系统，建立标准化开发流程。大幅降低了维护成本与客诉率。",
-      "technologies": ["System Architecture", "UI/UX Redesign"],
-      "link": "#",
-      "officialLink": "https://example.com",
-      "icon": "Database",
-      "status": "completed",
+      "name": "本地智能体开发平台",
+      "company": "星漪科技",
+      "status": "Commercialized",
+      "officialLink": "https://www.ripple-aistation.com/",
+      "icon": "Layers",
+      "description": "Ryypol 是一款支持私有化部署的 AI Agent 开发平台，旨在通过低代码形态实现 Agent 的快速工程化。平台内置流程引擎、多模型管理体系及丰富的 MCP（Model Context Protocol）工具集，支持用户通过拖、拉、拽的方式，快速构建符合特定业务逻辑的 Agent。",
+      "technologies": [
+        "Agent",
+        "低代码",
+        "流程引擎",
+        "MCP Protocol",
+        "私有化部署"
+      ],
       "details": {
-        "background": "针对代码混乱、文档缺失的老系统进行彻底重构。",
-        "work": "逻辑溯源，需求文档化，制定 0-1 开发流程规范。",
-        "results": "系统维护成本降低 50%，客诉率降低 70%。",
-        "images": ["/project2.png"]
+        "background": "2025 年正值全球 Agent 爆发元年，市场急需能落地私有化场景的智能体基座。此时公司正处于 A 轮融资的关键窗口期，亟需一款具备高度技术壁垒且能标准化交付的“拳头产品”来验证商业模式并打动投资人。在此背景下，我主导立项 Ryypol，旨在打造一个软硬协同、即插即用的本地 Agent 开发底座，作为公司冲击融资的核心战略筹码。",
+        "work": "**系统规划与架构设计**：负责平台整体产品架构设计，制定产品长期 Roadmap，并根据融资进度定义 MVP（最小可行性产品） 的核心功能集。\n**团队管理与流程把控**：组织并协调产品、研发、测试及算法等跨职能资源。管理需求、设计、研发、交付全产品流程。\n**展会筹备与产品布道**：筹备并组织参与云栖大会、进博会等行业展会。担任产品宣讲负责人，向投资机构、合作伙伴及标杆客户宣讲产品。",
+        "results": "**商业闭环**：完成首单客户验证，跑通商业模式，助力公司成功获得千万级 A 轮融资。\n**行业背书**：与 AMD 联合参展 2025 上海进博会，并斩获联合创新大奖。\n**交付突破**：3 个月内完成从 0 到 1 的 MVP 研发，并实现首单标杆客户的正式交付。",
+        "videoLink": "https://player.bilibili.com/player.html?bvid=BV1TwUpBcEWz&t=495&high_quality=1&danmaku=0",
+        "videoTitle": "2025 上海进博会 联合参展专访实录 (08:15起)",
+        "images": [
+          "/agent_arch.png",
+          "/award_01.jpg",
+          "/award_02.jpg"
+        ]
+      }
+    },
+    {
+      "name": "智能工业眼镜",
+      "company": "富士康科技集团",
+      "status": "Deployed",
+      "icon": "Layout",
+      "description": "“悟空”是一款专为工业现场设计的智能眼镜。通过集成“视频协作”等功能，实现一线工程师与远程专家的高效协同，打造工业场景下的数字化“现场外脑”。",
+      "technologies": [
+        "AR Wearable",
+        "视频协作",
+        "企业通讯",
+        "质量管控"
+      ],
+      "details": {
+        "background": "为响应集团“数字化工厂”战略，同时为提升核心竞争力，获取 Apple Vision Pro 设备生产订单，集团决定自研这套软硬一体化工业眼镜解决方案。",
+        "work": "**设计工业眼镜软件**：主导设计并研发“企业通讯”与“视频协作”应用，解决复杂环境下远程专家对一线作业的实时指导需求。\n**搭建眼镜通讯网络**：协调系统、网络及开发资源，从 0 到 1 搭建并优化集团内部智能眼镜专属通讯网络，确保数据传输高可靠、低延迟。\n**工业眼镜质量管控**：协同测试团队完成多轮功能稳定性压测与系统性能评估，确保产品在工业极端环境下的稳定运行。",
+        "results": "**商业价值**：大幅提升公司智能硬件维度的核心竞争力，以此解决方案为护城河，成功获取 Apple Vision Pro 独家生产订单。\n**量产交付**：克服精密制造挑战，跑通供应链打样闭环，完成产品一阶段量产，首批内部交付 500 台已投入极客产线使用。\n**降本增效**：通过极低延迟的远程第一视角协同模式，打破地域壁垒，大幅降低顶尖专家差旅成本，现场故障处置响应效率提升 5 倍以上。"
+      }
+    },
+    {
+      "name": "LED显示控制系统",
+      "company": "卡莱特云科技",
+      "status": "Refactored",
+      "officialLink": "https://www.colorlightinside.com/product/special/1514",
+      "icon": "Database",
+      "description": "iSet 7.0 是对公司核心 LED显示控制系统 进行的全面架构重写与体验升级。通过重构软件底层逻辑与交互体系，解决系统长期维护难、故障率高的痛点，建立标准化的全生命周期研发流程。",
+      "technologies": [
+        "架构重构",
+        "底层逻辑重写",
+        "SDLC 规范",
+        "UX 交互"
+      ],
+      "details": {
+        "background": "原系统沿用多年，存在代码冗余、文档缺失、功能失真等严重历史遗留问题，导致维护成本极高。因系统故障频发导致客户投诉增加，急需通过重构提升产品可靠性、可维护性及用户交互体验。",
+        "work": "**业务逻辑溯源与拆解**：深度调研旧系统功能逻辑，完成核心业务流程的逆向梳理，精准定位架构缺陷并输出标准功能说明文档。\n**产品重构与交互定义**：负责新系统软件产品设计，重新定义产品功能架构与界面交互逻辑，输出高质量软件需求文档（PRD）。\n**研发流程体系化建设**：制定标准化软件开发规范，涵盖需求收集、分析、开发、验收全流程，推动部门研发体系由“经验驱动”向“流程驱动”转型。",
+        "results": "**效能飞跃**：建立覆盖全生命周期的标准化研发体系，提升团队协作质量，研发效率提升 30%。\n**降本增效**：系统稳定性大幅增强，后期维护成本降低 50%。\n**体验优化**：产品可用性获得客户认可，售后客诉率同步降低 70%。",
+        "externalDocLink": "https://docs.qq.com/doc/DSVdDb09CWmRsck5i"
+      }
+    },
+    {
+      "name": "视频控台产品预研",
+      "company": "卡莱特云科技",
+      "status": "Completed",
+      "icon": "Layout",
+      "description": "负责公司首款专业级视频控台（用于演唱会/晚会大屏切换控制）的前期产品定义。通过深度对标全球顶尖厂商方案，填补公司在高端演艺显示控制市场的业务空白。",
+      "technologies": [
+        "竞品对标",
+        "业务流程梳理",
+        "知识赋能",
+        "战略规划"
+      ],
+      "details": {
+        "background": "公司为填补业务空白，瞄准高端演艺、大型导播细分赛道，打破技术壁垒，构建全场景显示控制生态。针对存量市场的寡头格局，通过深度预研寻找差异化竞争机会与技术突破口。",
+        "work": "**全球顶尖竞品对标**：深度拆解 Barco、Analog Way、NovaStar 等行业领军产品的硬件规格及软件系统架构，输出万字级调研报告。\n**业务流程全面梳理**：通过逆向分析与场景模拟，还原演艺现场导播对视频调度、图层管理、转场特效的底层业务流程。\n**全员业务知识赋能**：沉淀多份高质量产品定义文档，并组织跨部门产品培训，建立产研团队对视频控台业务的标准化认知。",
+        "results": "**技术资产沉淀**：产出全套视频控台功能图谱及竞品库，为公司未来进军演艺控制市场提供了决策参考与技术储备。\n**部门业务赋能**：通过多场内部培训，成功将专业导播业务逻辑转化为产研团队的通用知识，提升了团队的专业素养。",
+        "externalDocName": "产品调研报告",
+        "externalDocLink": "https://docs.qq.com/s/-fXql7QAHlkxKiZUl1wKHG"
       }
     }
   ],
   "ui": {
     "logo": "Rich.ai",
-    "logoHover": "Rich的指挥中心",
-    "systemInit": "INITIALIZING COMMAND CENTER // RICH",
+    "logoHover": "Rich的个人主页",
+    "systemInit": "正在初始化指挥中心 // RICH",
     "contact": "联系 Rich",
-    "experience": "职业生涯 / Experience",
-    "projects": "实战案例 / Portfolio",
-    "capabilities": "核心专长 / Skills",
-    "education": "教育背景 / Education",
-    "philosophy": "产品哲学 / Philosophy",
-    "others": "其他 / Others",
-    "connect": "即刻联系",
+    "experience": "职业生涯",
+    "projects": "实战案例",
+    "capabilities": "核心技能",
+    "education": "教育背景",
+    "academicBackground": "学术背景",
+    "philosophy": "产品思维",
+    "hobbies": "兴趣爱好",
+    "connect": "取得联系",
     "resumeInfo": "详情",
     "projectDetail": "项目解析",
-    "mainAchievements": "核心成果",
+    "mainAchievements": "核心业绩",
     "visitWebsite": "访问官网",
     "toBeUpdated": "敬请期待",
     "associatedWith": "所属单位",
-    "skillsTools": "常用工具",
-    "skillsCore": "核心能力"
+    "skillsProduct": "产品能力",
+    "skillsAi": "AI 能力",
+    "skillsTech": "技术能力",
+    "skillsTools": "工具能力",
+    "all": "全部",
+    "company": "所属公司",
+    "status": "当前状态",
+    "live": "在线链接",
+    "visit": "产品官网",
+    "overview": "项目概述",
+    "bgChallenge": "项目背景",
+    "coreWork": "核心工作",
+    "results": "项目成果",
+    "visuals": "项目资料（已脱敏）",
+    "viewDocInfo": "访问外部安全文档",
+    "internalAsset": "企业内部保密资产",
+    "docVaultTitle": "产品需求文档",
+    "docVaultDesc": "外部安全访问链路 (例如 腾讯文档)",
+    "figPrefix": "图",
+    "figSuffix": "仅限授权查阅专用",
+    "scroll": "向下滚动",
+    "explore": "向右滑动探索轨迹",
+    "heroTagline": "产品思维",
+    "heroSubTitle": "AI 产品经理",
+    "mentalModel": "思维模型",
+    "careerJourney": "职业轨迹",
+    "keyAccomplishments": "核心业绩",
+    "locationLabel": "地点：",
+    "skillMatrix": "技能矩阵",
+    "productPortfolio": "实战案例",
+    "currentLocation": "深圳",
+    "commandCenter": "",
+    "lifestyle": "生活与荣誉",
+    "personalInterests": "兴趣爱好",
+    "honorsAwards": "荣誉奖项",
+    "refPrefix": "编号: 00",
+    "scrollHint": "滑动探索成长轨迹",
+    "academicFocus": "学术重点",
+    "journeyLabel": "时间轴 // 历程",
+    "navPrefix": "// 0",
+    "systemStatus": "实时在线",
+    "ctaTag": "开放交流与连接",
+    "ctaTitle1": "期待与优秀团队共同探索",
+    "ctaTitle2": "AI 落地的无限可能",
+    "ctaDescription": ""
   }
 }

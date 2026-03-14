@@ -2,8 +2,9 @@
   "basics": {
     "name": "Rich",
     "title": "AI Product Manager",
-    "avatar": "/avatar.png",
-    "summary": "4 years of PM experience, leading multiple 0-1 AI products. Full-lifecycle capabilities. Dedicated to bridging the gap between LLM potential and business reality.",
+    "vision": "Anchor the Intelligent Wave, Reconstruct the Future World",
+    "avatar": "/rich_avatar.png",
+    "summary": "Exp: 4 years PM depth, leading 0-1 delivery of multiple AI products.\nBase: Software engineering background, rigorous logic & structured expression.\nInsight: Track AI progress, sense industry singularities & business opportunities.\nTrait: Lifelong learner, balancing rational thinking & delicate empathy.",
     "email": "w_youqian@163.com",
     "phone": "13596288140",
     "location": "Shenzhen",
@@ -14,61 +15,91 @@
     ],
     "profiles": [
       {
-        "network": "GitHub",
-        "url": "https://github.com/wangyouqian"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rich-wang-ai"
       }
     ]
   },
   "philosophy": [
     {
-      "title": "Data-Driven Decision",
-      "desc": "In the AI era, data is fuel. I rely on quantitative analysis to ensure every feature has a clear path for growth."
+      "title": "Scene-Driven Design",
+      "desc": "AI products don't start from model capabilities, but from real-world problems. Understand business flow first, then design data and system structures so AI can truly embed into production, not just stay at the demo layer."
     },
     {
-      "title": "AI Empowered UX",
-      "desc": "Focusing on seamless LLM integration into workflows rather than brute-force tech stacking."
+      "title": "Data Loop Awareness",
+      "desc": "The core of AI products is the data system, not just the model. By building a complete chain of data collection, labeling, training, and feedback, model capabilities can continuously evolve in real environments."
     },
     {
-      "title": "Human-Centric Vision",
-      "desc": "The warmth under the tech shell comes from delicate human insights. I pursue humanized feedback in efficiency tools."
+      "title": "System Engineering Perspective",
+      "desc": "AI products are complex systems composed of data, models, services, and applications, not just single features. Design requires thinking at the system architecture level to ensure stability and continuous iteration."
+    },
+    {
+      "title": "Platform-Oriented Product View",
+      "desc": "As LLMs develop, software is moving from applications to platforms. Future product forms will consist of models, tools, agents, and workflows. The value of products lies in building extensible capability platforms."
     }
   ],
   "experience": [
     {
-      "company": "Xinghan Technology",
+      "company": "Xingyi Technology",
+      "website": "https://www.ripple-aistation.com/",
       "position": "AI Product Manager",
       "startDate": "2025.08",
       "endDate": "2025.11",
-      "summary": "Overall planning and landing of new AI products, managing the full lifecycle.",
+      "summary": "Core Responsibility: Committed to corporate strategic direction and financing milestones, leading the commercialization of core AI product lines from 0 to 1, responsible for overall planning, design, and full lifecycle management.",
       "highlights": [
-        "Led core project: Localized Agent Development Platform.",
-        "Strategic partnership with AMD, exhibited at 2025 CIIE.",
-        "Assisted in completing Series A funding through successful MVP validation."
+        "Platform-level Architecture: Independently completed 0-1 product architecture design, building an integrated solution compatible with multi-model adaptation layers, MCP tools, and local vector databases, creating a highly scalable local AI ecosystem foundation.",
+        "Supplier Giant Collaboration: Led deep technical communication with AMD, achieving extreme optimization of local inference performance based on the AMD 395 platform; findings won the 2025 CIIE Joint Innovation Award.",
+        "Capital & Commercial Validation: Delivered MVP within 3 months and successfully ran the first 'Private KB Q&A' closed-loop scenario, achieving first commercial landing and helping secure tens of millions in Series A funding."
       ]
     },
     {
       "company": "Colorlight Cloud",
-      "position": "Product Manager",
+      "website": "https://www.colorlightinside.com/",
+      "position": "Senior Product Manager",
       "startDate": "2023.11",
       "endDate": "2025.05",
-      "summary": "Core software planning, refactoring, and systemic upgrade of Architecture and R&D processes.",
+      "summary": "Responsible for strategic preliminary research of new business lines and architectural refactoring of the core product ecosystem, driving standardized transformation and efficiency upgrades of the business.",
       "highlights": [
-        "Led LED Display Control System refactor.",
-        "Maintenance costs down 50%, complaints down 70%."
+        "Strategic Pre-research: Led market entry research for the new 'Professional Video Console' business. By comparing tech stacks and disassembling products of industry giants like Barco and Novastar, delivered research reports that provided core decision-making data support for the strategic layout of product lines.",
+        "Product Refactoring: Completed 0-1 architectural upgrade and interaction design for the core LED display control system. Deeply traced black-box logic and established standardized functional specifications and requirement documents, completely resolving issues of code redundancy and asset loss.",
+        "Standard Definition: Led and promoted the establishment of Software Development Life Cycle (SDLC) standards, realizing the standardized transformation of R&D collaboration from 'experience-driven' to 'system-driven'.",
+        "Metric Leaps: Achieved a 50% reduction in system maintenance costs and a 70% drop in customer complaint rates, significantly enhancing the technical barriers and delivery stability of the core product line."
+      ]
+    },
+    {
+      "company": "Foxconn Technology Group",
+      "website": "https://www.foxconn.com.cn/",
+      "position": "AI Product Manager (Industrial Brain)",
+      "startDate": "2021.09",
+      "endDate": "2023.09",
+      "summary": "Core Responsibility: Served the group's intelligent manufacturing and digital transformation, responsible for the commercial landing of AI technology in production, quality inspection, and smart wearable scenarios, driving the system from business research to stable mass production in a full-process closed loop.",
+      "highlights": [
+        "Industrial AI Full-Stack Landing: Led the landing and iteration of the image intelligent detection platform project. Built a complete AI closed loop system from data collection, storage, analysis to application. Deeply empowered the iPhone quality inspection production line through AI technology, achieving end-to-end landing of automated detection solutions, and driving the transition of the production line from experience-driven to algorithm-driven intelligent transformation.",
+        "Hardware-Software Tech Ecosystem: Coordinated the smart industrial glasses project, responsible for application-level software definition and overall scheduling of cross-functional resources such as system, network, R&D, and testing. Successfully built an industrial-grade wearable device communication network supporting global production synergy.",
+        "Core Business Value Conversion: Leveraging the advantages of the excellent hardware-software integrated solution, successfully assisted the company in wining the exclusive Apple Vision Pro production order. The image intelligent detection platform project achieved an annual production cost reduction of over 5 million RMB and was selected as a level-4 benchmark case for intelligent manufacturing in the group."
       ]
     }
   ],
   "education": {
     "university": "Yantai University",
     "major": "Software Engineering",
-    "degree": "Bachelor",
+    "degree": "Bachelor of Engineering",
     "startDate": "2017.09",
     "endDate": "2021.06",
-    "courses": "Requirements Analysis, Data Structures, JAVA, etc. Graduation: 'Palm Classroom' Mobile App."
+    "coreCourses": [
+      "Requirements Analysis",
+      "JAVA Programming",
+      "Data Structures",
+      "Operating Systems",
+      "Database Principles"
+    ],
+    "thesis": "Design and Development of 'Palm Classroom' Mobile APP"
   },
   "skills": {
-    "tools": ["Axure", "Figma", "Cursor", "GPT4"],
-    "core": ["Roadmap Planning", "0-1 Landing", "Technical Analysis", "LLM App Dev", "Cross-team Collaboration"]
+    "product": ["Product Planning", "Requirement Analysis", "PRD Design", "Product Roadmap", "Agile Management"],
+    "ai": ["AI Agent Design", "RAG System", "AI Workflow", "Model Evaluation"],
+    "tech": ["Transformer", "Prompt Engineering", "AI Architecture", "Vector DB"],
+    "tools": ["Figma", "Axure", "Antigravity", "ChatGPT", "Coze", "PingCode", "Openclaw"]
   },
   "others": {
     "hobbies": ["Billiards", "Reading", "Running", "Movies"],
@@ -76,19 +107,79 @@
   },
   "projects": [
     {
-      "name": "Local Agent Platform",
-      "company": "Xinghan Technology",
-      "description": "Enterprise-grade private AI Agent environment.",
-      "technologies": ["LLM", "Agentic Workflow", "Local Deployment"],
-      "link": "#",
-      "officialLink": "https://example.com",
-      "icon": "Layout",
-      "status": "completed",
+      "name": "Intelligent Image Detection Platform",
+      "company": "Foxconn Technology Group",
+      "status": "Deployed",
+      "officialLink": "",
+      "icon": "Cpu",
+      "description": "Q-Stream is an industrial-grade AI vision platform powered by YOLOv5 and massive data pipelines (Kafka/Hadoop). By integrating automated capture, distributed storage, and model analysis, it replaces traditional manual inspection to achieve 24/7 machine-level interception on iPhone production lines.",
+      "technologies": ["YOLOv5", "Kafka", "Hadoop", "Automated Collection", "Distributed Storage", "MES System", "Model Training"],
       "details": {
-        "background": "Planning next-gen localized AI agent dev platform.",
-        "work": "Product architecture design and MVP Roadmap.",
-        "results": "MVP delivered, Series A funding secured.",
-        "images": ["/project1.png"]
+        "background": "The traditional manual quality inspection model suffered from low coverage, high misjudgment rates, and severely delayed interceptions. To support the group's 'Level 4 Benchmark Enterprise for Smart Manufacturing' strategy, it was urgent to overcome quality management bottlenecks in large-scale production environments through AI vision solutions.",
+        "work": "**Industrial-Grade Data Pipeline Construction**: Led business scenario research, building point-to-end image collection and transmission networks from 0 to 1, achieving automated, high-reliability synchronization of massive production data.\n**Full-Stack Industrial AI Architecture Design**: Built a complete AI closed-loop system encompassing data collection, storage, analysis, and application. System judgment results precisely docked with the MES system.\n**Standardized Data Governance System**: Established rigorous image annotation specifications and acceptance processes, ensuring high-quality supply of algorithm training data through normalized governance to improve model robustness from the source.\n**Algorithm Tuning & Business Coupling**: Deeply participated in AI model evaluation and algorithm adaptation, collaborating with algorithm engineers to complete YOLOv5 model training, debugging, and deployment. Supported Double Check manual re-inspection logic to ensure extremely high accuracy of production interception.",
+        "results": "**Economic Benefits**: Reduced annual production costs for the iPhone business by over 5 million RMB.\n**Efficiency Leap**: Boosted user workflow efficiency by 300%, achieving 100% automated coverage and proactive interception of defective machines on the production line.\n**Industry Recognition**: Propelled the group to be recognized as an excellent case of a 'Level 4 Benchmark Enterprise for Smart Manufacturing', establishing a standard paradigm for deploying AI in ultra-large-scale manufacturing scenarios.",
+        "images": [
+          "/project_arch.png"
+        ]
+      }
+    },
+    {
+      "name": "Ryypol Local AI Agent Platform",
+      "company": "WaveAI",
+      "status": "Commercialized",
+      "officialLink": "https://www.ripple-aistation.com/",
+      "icon": "Layers",
+      "description": "Ryypol is a private-deployment AI Agent development platform aimed at rapid Agent engineering through a low-code approach. Built with a workflow engine, multi-model management system, and rich MCP (Model Context Protocol) toolset, it enables users to quickly build logic-specific Agents via drag-and-drop.",
+      "technologies": ["Agent", "Low-Code", "Workflow Engine", "MCP Protocol", "Private Deployment"],
+      "details": {
+        "background": "2025 marked the first year of the global Agent explosion, and the market urgently needed an intelligent base capable of landing in private scenarios. At a critical window for Series A funding, the company urgently needed a highly technical, standardized 'flagship product' to validate the business model and impress investors. In this context, I led the Ryypol project, aiming to create a hardware-software synergistic, plug-and-play local Agent development base as the core strategic bargaining chip for funding.",
+        "work": "**System Planning & Architecture Design**: Responsible for overall product architecture design, formulating the long-term Roadmap, and defining the core feature set for the MVP (Minimum Viable Product) based on the funding schedule.\n**Team Management & Process Control**: Organized and coordinated cross-functional resources including product, R&D, testing, and algorithms. Managed the entire product lifecycle from requirements and design to R&D and delivery.\n**Exhibition Prep & Product Evangelism**: Prepared and organized participation in industry exhibitions like Apsara Conference and CIIE. Served as the lead product evangelist, pitching the product to investment institutions, partners, and benchmark clients.",
+        "results": "**Commercial Closed Loop**: Completed first-client validation, proved the business model, and helped the company successfully secure tens of millions in Series A funding.\n**Industry Endorsement**: Co-exhibited with AMD at the 2025 Shanghai CIIE and won the Joint Innovation Award.\n**Delivery Breakthrough**: Completed MVP R&D from 0 to 1 within 3 months and achieved official delivery to the first benchmark client.",
+        "videoLink": "https://player.bilibili.com/player.html?bvid=BV1TwUpBcEWz&t=495&high_quality=1&danmaku=0",
+        "videoTitle": "2025 Shanghai CIIE Joint Exhibition Interview (Start at 08:15)"
+      }
+    },
+    {
+      "name": "Smart Industrial Glasses (Wukong)",
+      "company": "Foxconn Technology Group",
+      "status": "Deployed",
+      "icon": "Layout",
+      "description": "'Wukong' is a smart glass designed specifically for industrial fields. By integrating features like 'video collaboration', it enables efficient synergy between frontline engineers and remote experts, creating a digitized 'on-site external brain' for industrial scenarios.",
+      "technologies": ["AR Wearable", "Video Collaboration", "Enterprise Comm", "Quality Control"],
+      "details": {
+        "background": "To respond to the group's 'Digital Factory' strategy and simultaneously enhance core competitiveness to secure Apple Vision Pro production orders, the group decided to self-develop a hardware-software integrated industrial glasses solution.",
+        "work": "**Design Industrial Glasses Software**: Led the design and R&D of 'Enterprise Communication' and 'Video Collaboration' applications, solving the need for real-time guidance from remote experts to frontline operations in complex environments.\n**Build Glasses Comm Network**: Coordinated system, network, and development resources to build and optimize the group's internal exclusive communication network for smart glasses from 0 to 1, ensuring highly reliable and low-latency data transmission.\n**Industrial Glasses Quality Control**: Collaborated with the QA team to complete multiple rounds of functional stability stress testing and system performance evaluation, ensuring the product's stable operation under extreme industrial environments.",
+        "results": "**Business Value**: Drastically enhanced the company's core market competitiveness in smart hardware, successfully leveraging this solution as a moat to secure exclusive Apple Vision Pro production orders.\n**Mass Production Delivery**: Completed phase one mass production of smart industrial glasses, with an initial batch of 500 units successfully delivered for internal deployment.\n**Cost Reduction & Efficiency**: Through the ultra-low latency remote collaboration model, significantly reduced expert travel costs and improved on-site anomaly processing response efficiency by 5x."
+      }
+    },
+    {
+      "name": "iSet 7.0 (Display Control Refactoring)",
+      "company": "Colorlight Cloud Tech",
+      "status": "Refactored",
+      "officialLink": "https://www.colorlightinside.com/",
+      "icon": "Database",
+      "description": "iSet 7.0 is a comprehensive architectural rewrite and experience upgrade for the company's core LED display control system. By refactoring the software's underlying logic and interaction system, it solves the pain points of long-term maintenance difficulties and high failure rates, establishing a standardized full-lifecycle R&D process.",
+      "technologies": ["Architecture Rewrite", "Logic Refactoring", "SDLC Standards", "UX Interaction"],
+      "details": {
+        "background": "The original system had been in use for years, burdened with severe legacy issues such as code redundancy, missing documentation, and functional distortion, leading to extremely high maintenance costs. Frequent system failures caused a surge in customer complaints, urgently requiring a refactor to enhance product reliability, maintainability, and user interaction experience.",
+        "work": "**Business Logic Tracing and Disassembly**: Deeply investigated the functional logic of the legacy system, completed reverse tracing of core business flows, accurately located architectural defects, and output standardized functional specification documents.\n**Product Refactoring and Interaction Definition**: Responsible for the software product design of the new system, redefining the product's functional architecture and interface interaction logic, and output high-quality Product Requirements Documents (PRD).\n**R&D Process Systematization**: Formulated standardized software development specifications covering the entire process from requirements gathering, analysis, and development to acceptance, driving the department's R&D system to transition from 'experience-driven' to 'process-driven'.",
+        "results": "**Efficiency Leap**: Established a standardized R&D system covering the entire lifecycle, significantly improving cross-team collaboration quality, and increasing R&D efficiency by 30%.\n**Cost Reduction & Efficiency**: System stability was drastically enhanced, with post-maintenance costs reduced by 50%.\n**Experience Optimization**: Product usability won client recognition, with post-sales complaint rates dropping simultaneously by 70%.",
+        "externalDocLink": "https://docs.qq.com/doc/DSVdDb09CWmRsck5i"
+      }
+    },
+    {
+      "name": "Video Console Product Pre-research",
+      "company": "Colorlight Cloud Tech",
+      "status": "Completed",
+      "icon": "Layout",
+      "description": "Responsible for the early product definition of the company's first professional-grade video console (used for large-screen switching control in concerts/galas). By comprehensively benchmarking against top global manufacturers' solutions, it fills the company's business gap in the high-end entertainment display control market.",
+      "technologies": ["Competitor Benchmarking", "Business Flow Mapping", "Team Enablement", "Strategic Planning"],
+      "details": {
+        "background": "To fill the business gap, the company targeted the high-end entertainment and large-scale broadcasting subdivision track, breaking technical barriers to build a full-scenario display control ecosystem. Against the oligopolistic landscape of the existing market, we sought differentiated competitive opportunities and technical breakthroughs through in-depth pre-research.",
+        "work": "**Top Global Competitor Benchmarking**: Deeply dismantled the hardware specifications and software system architectures of industry-leading products like Barco, Analog Way, and NovaStar, outputting a 10,000+ word research report.\n**Comprehensive Business Flow Reverse Engineering**: Through reverse analysis and scenario simulation, restored the underlying business flow of on-site entertainment broadcasting for video scheduling, layer management, and transition effects.\n**Team Business Knowledge Enablement**: Accumulated multiple high-quality product definition documents and organized cross-departmental product training to establish standardized awareness of video console business among the R&D team.",
+        "results": "**Technical Asset Accumulation**: Output a complete set of video console functional maps and a competitor library, providing decision-making reference and technical reserves for the company's future entry into the entertainment control market.\n**Departmental Business Enablement**: Through multiple internal training sessions, successfully transformed professional broadcasting business logic into common knowledge for the R&D team, enhancing the team's professional competence.",
+        "externalDocName": "Product Research Report",
+        "externalDocLink": "https://docs.qq.com/s/-fXql7QAHlkxKiZUl1wKHG"
       }
     }
   ],
@@ -97,12 +188,13 @@
     "logoHover": "Rich's Command Center",
     "systemInit": "INITIALIZING COMMAND CENTER // RICH",
     "contact": "Contact Rich",
-    "experience": "Career / Experience",
-    "projects": "Portfolio / Projects",
-    "capabilities": "Skills / Capabilities",
-    "education": "Education Background",
-    "philosophy": "AI PM Philosophy",
-    "others": "Others",
+    "experience": "Experience",
+    "projects": "Projects",
+    "capabilities": "Skills",
+    "education": "Education",
+    "academicBackground": "Academic",
+    "philosophy": "Philosophy",
+    "hobbies": "Interests",
     "connect": "Let's Talk",
     "resumeInfo": "Details",
     "projectDetail": "Analysis",
@@ -110,7 +202,53 @@
     "visitWebsite": "Visit Site",
     "toBeUpdated": "Coming Soon",
     "associatedWith": "Affiliation",
-    "skillsTools": "Tools & Stack",
-    "skillsCore": "Core Capabilities"
+    "skillsProduct": "Product",
+    "skillsAi": "AI Native",
+    "skillsTech": "Tech Arch",
+    "skillsTools": "Toolchain",
+    "all": "All",
+    "company": "Company",
+    "status": "Status",
+    "live": "Live Link",
+    "visit": "Product Website",
+    "overview": "Project Overview",
+    "bgChallenge": "Project Background",
+    "coreWork": "Core Work",
+    "results": "Results",
+    "visuals": "Project Materials (Redacted)",
+    "viewDocInfo": "Access External Secure Doc",
+    "internalAsset": "Internal Enterprise Asset",
+    "docVaultTitle": "Product Requirements Document",
+    "docVaultDesc": "External Secure Access (e.g., Tencent Docs)",
+    "figPrefix": "Fig",
+    "figSuffix": "Authorized Viewer Only",
+    "scroll": "Scroll Down",
+    "explore": "Swipe right to explore",
+    "heroTagline": "Product.",
+    "heroSubTitle": "AI · Product Manager",
+    "mentalModel": "Mental Model",
+    "careerJourney": "Career Journey",
+    "keyAccomplishments": "Key Accomplishments",
+    "locationLabel": "LOCATION: ",
+    "skillMatrix": "Skill Matrix",
+    "productPortfolio": "Product Portfolio",
+    "currentLocation": "SHENZHEN",
+    "commandCenter": "",
+    "lifestyle": "Lifestyle & Certs",
+    "personalInterests": "Personal Interests",
+    "honorsAwards": "Honors & Awards",
+    "refPrefix": "REF: 00",
+    "scrollHint": "Scroll to explore trajectory",
+    "academicFocus": "Academic Focus",
+    "journeyLabel": "Timeline // Journey",
+    "navPrefix": "// 0",
+    "systemStatus": "Online Now",
+    "eduMajor": "Major",
+    "eduCoreCourses": "Core Courses",
+    "eduThesis": "Graduation Thesis",
+    "ctaTag": "Open to Connect",
+    "ctaTitle1": "Looking forward to exploring",
+    "ctaTitle2": "the infinite possibilities of AI",
+    "ctaDescription": ""
   }
 }

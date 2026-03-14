@@ -1,153 +1,197 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { Github, Mail, ArrowRight, ShieldCheck, Zap, Activity } from "lucide-react";
-import { useLanguage } from "./LanguageContext";
+import { Github, Mail, ArrowUpRight, MapPin, Briefcase, Linkedin } from "lucide-react";
+import { useLanguage } from "@/components/LanguageContext";
+import TextScramble from "@/components/ui/TextScramble";
+import CountUp from "@/components/ui/CountUp";
+import MagneticButton from "@/components/ui/MagneticButton";
 
 export default function Hero() {
-  const { data } = useLanguage();
-  const { name, title, summary, profiles, email, avatar, stats } = data.basics;
-  const { ui } = data;
+  const { data, language } = useLanguage();
+  const { basics } = data;
   const { scrollY } = useScroll();
-  const y1 = useTransform(scrollY, [0, 500], [0, 200]);
+  const y = useTransform(scrollY, [0, 600], [0, 180]);
+  const opacity = useTransform(scrollY, [0, 400], [1, 0]);
 
-  const getIcon = (network: string) => {
-    switch (network.toLowerCase()) {
-      case "github": return <Github className="w-5 h-5" />;
-      default: return null;
-    }
-  };
+  const taglines = [basics.title];
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center pt-32 pb-16 overflow-hidden">
-      {/* Background Parallax Blobs */}
-      <motion.div 
-        style={{ y: y1 }}
-        className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-[var(--accent-cyan)]/10 rounded-full mix-blend-screen filter blur-[150px] animate-blob z-0 pointer-events-none" 
-      />
-      
-      <div className="relative z-10 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        {/* Left: Avatar & Stats Command Center */}
-        <motion.div 
+    <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+
+      {/* Ambient orbs */}
+      <motion.div style={{ y }} className="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full bg-[var(--cyan)] glow-orb animate-blob" />
+      <motion.div style={{ y }} className="absolute bottom-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-[var(--purple)] glow-orb animate-blob animation-delay-2000" />
+      <motion.div style={{ y }} className="absolute top-[40%] right-[20%] w-[300px] h-[300px] rounded-full bg-[var(--blue)] glow-orb animate-blob animation-delay-4000" />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center py-16">
+
+        {/* ─── LEFT: Text Content ─── */}
+        <motion.div style={{ opacity }} className="lg:col-span-7 space-y-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/[0.03] text-xs font-mono text-[var(--gray-light)]"
+          >
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute h-full w-full rounded-full bg-[#00FF88] opacity-75" />
+              <span className="relative h-2 w-2 rounded-full bg-[#00FF88]" />
+            </span>
+            {basics.location} · {basics.title}
+          </motion.div>
+          {/* Name & Vision Branding */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="space-y-4"
+          >
+            <h1 className="text-display text-white leading-none">
+              <TextScramble text={basics.name} delay={200} duration={1000} />
+            </h1>
+            <motion.div 
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 0.8, x: 0 }}
+              transition={{ delay: 0.4, duration: 1 }}
+              className="group flex items-center gap-4"
+            >
+              <div className="h-px w-12 bg-gradient-to-r from-[var(--cyan)] to-transparent" />
+              <p className="text-xl md:text-2xl font-light tracking-[0.2em] text-[var(--cyan)] uppercase italic">
+                {basics.vision}
+              </p>
+            </motion.div>
+          </motion.div>
+          {/* Summary - V2.6 Clean & Bold List */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 pt-4"
+          >
+            {basics.summary.split('\n').map((line: string, idx: number) => {
+              const [tag, content] = line.split('：');
+              return (
+                <div key={idx} className="group/item relative">
+                  <div className="flex flex-col gap-2">
+                    <div className="flex items-center gap-3">
+                      <span className="text-xs font-mono text-[var(--cyan)] opacity-40">0{idx + 1}</span>
+                      <span className="text-sm font-bold tracking-widest text-white/60 group-hover/item:text-[var(--cyan)] transition-colors italic">
+                        {tag}
+                      </span>
+                      <div className="h-px flex-1 bg-white/5 group-hover/item:bg-[var(--cyan)]/20 transition-all" />
+                    </div>
+                    <p className="text-lg text-white/90 leading-relaxed font-light pl-8 border-l border-white/5 group-hover/item:border-[var(--cyan)]/30 transition-all">
+                      {content}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </motion.div>
+
+          {/* CTAs */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="flex flex-wrap gap-4 pt-6"
+          >
+            <MagneticButton
+              href={`mailto:${basics.email}`}
+              className="flex items-center gap-2 px-8 py-4 rounded-2xl bg-[#00FF88] text-black font-bold text-sm hover:scale-105 transition-all shadow-[0_0_30px_rgba(0,255,136,0.3)]"
+            >
+              <Mail className="w-4 h-4" />
+              {data.ui.contact}
+            </MagneticButton>
+
+            {basics.profiles.map((p: any) => (
+              <MagneticButton
+                key={p.network}
+                href={p.url}
+                className="flex items-center gap-2 px-8 py-4 rounded-2xl border border-white/10 text-[var(--gray-light)] hover:text-white hover:border-white/30 font-bold text-sm transition-all"
+              >
+                {p.network.toLowerCase() === 'linkedin' ? (
+                  <Linkedin className="w-4 h-4" />
+                ) : (
+                  <Github className="w-4 h-4" />
+                )}
+                {p.network}
+              </MagneticButton>
+            ))}
+          </motion.div>
+        </motion.div>
+
+        {/* ─── RIGHT: Avatar Panel ─── */}
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          className="lg:col-span-5 flex flex-col items-center lg:items-end space-y-8"
+          transition={{ duration: 1, delay: 0.2 }}
+          className="lg:col-span-5 flex justify-center"
         >
-          <div className="relative group">
-            {/* Animated Ring */}
-            <div className="absolute -inset-4 bg-gradient-to-r from-[var(--accent-cyan)] to-[var(--accent-purple)] rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000 animate-pulse"></div>
-            
-            <div className="relative w-64 h-80 md:w-80 md:h-[450px] rounded-2xl overflow-hidden border border-white/10 glass-panel shadow-2xl">
-              <img 
-                src={avatar} 
-                alt={name} 
-                className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
+          <div className="relative group/avatar">
+            {/* Rotating gradient ring */}
+            <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-[var(--cyan)] via-[var(--purple)] to-[var(--blue)] opacity-25 blur-md animate-blob" />
+
+            {/* Avatar frame */}
+            <div className="relative w-full max-w-[280px] md:max-w-[360px] aspect-[3/4] rounded-3xl overflow-hidden border border-white/10 shadow-2xl mx-auto">
+              <img
+                src={basics.avatar}
+                alt={basics.name}
+                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover/avatar:scale-105 grayscale group-hover/avatar:grayscale-0"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
-              
-              {/* Scanline Effect */}
-              <div className="scanline"></div>
-              
-              {/* Floating ID Tag */}
-              <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-black/60 backdrop-blur-md border border-white/10">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] font-mono text-[var(--accent-cyan)] uppercase tracking-tighter">Status: Authorized</span>
-                  <div className="h-1.5 w-1.5 rounded-full bg-[var(--accent-cyan)] animate-pulse"></div>
-                </div>
-                <div className="text-white font-bold tracking-tight uppercase text-lg">{name} // 001</div>
+              {/* Overlay gradient */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[var(--bg-deep)] via-transparent to-transparent" />
+
+              {/* ID badge - V2.8 Balanced Minimalist Plate */}
+              <div className="absolute bottom-6 left-6 right-6">
+                <motion.div 
+                  initial={{ y: 10, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ delay: 0.5, duration: 0.8 }}
+                  className="glass p-4 rounded-xl border border-white/10 shadow-2xl relative overflow-hidden backdrop-blur-3xl group/badge"
+                >
+                  <div className="relative z-10 flex items-center justify-between gap-4">
+                    {/* Left: Identity */}
+                    <div className="space-y-1">
+                      <div className="text-white font-black text-2xl tracking-tighter leading-none uppercase italic">
+                        {basics.name}
+                      </div>
+                      <p className="text-[11px] text-[#00FF88] font-medium leading-tight tracking-wider opacity-90">
+                        {basics.vision}
+                      </p>
+                    </div>
+
+                    {/* Right: Abstract Tech Decor (No Text) */}
+                    <div className="flex items-end gap-1 px-1 opacity-40 group-hover/badge:opacity-100 transition-opacity">
+                      {[0.4, 0.7, 0.3, 0.9, 0.5].map((scale, i) => (
+                        <motion.div 
+                          key={i} 
+                          animate={{ height: [8, 16, 8] }} 
+                          transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.2 }}
+                          className="w-[1.5px] bg-[#00FF88] rounded-full" 
+                          style={{ height: `${scale * 16}px` }} 
+                        />
+                      ))}
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </div>
           </div>
-
-          {/* Stats Grid */}
-          <div className="grid grid-cols-3 gap-4 w-full max-w-sm">
-            {stats.map((stat: any, i: number) => (
-              <motion.div 
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8 + i * 0.1 }}
-                className="p-3 rounded-xl bg-white/5 border border-white/5 text-center hover:border-[var(--accent-cyan)]/30 transition-colors"
-              >
-                <div className="text-xl font-black text-white">{stat.value}</div>
-                <div className="text-[10px] font-mono text-gray-500 uppercase tracking-tighter">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
         </motion.div>
-
-        {/* Right: Intro & Call to Action */}
-        <div className="lg:col-span-7 space-y-10">
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[var(--accent-cyan)]/10 border border-[var(--accent-cyan)]/20 backdrop-blur-sm"
-          >
-            <Zap className="w-3.5 h-3.5 text-[var(--accent-cyan)]" />
-            <span className="text-[var(--accent-cyan)] font-mono text-xs uppercase tracking-[0.2em]">
-              {ui.systemInit}
-            </span>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="space-y-4"
-          >
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter text-white leading-tight">
-              Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-[var(--accent-cyan)] to-[var(--accent-purple)]">Intelligence</span><br />
-              Driven Products.
-            </h1>
-            <h3 className="text-2xl md:text-3xl text-gray-400 font-medium">
-              {title}
-            </h3>
-          </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg md:text-xl text-gray-400 leading-relaxed max-w-2xl font-sans"
-          >
-            {summary}
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-wrap items-center gap-6 pt-4"
-          >
-            <a
-              href={`mailto:${email}`}
-              className="group relative flex items-center gap-3 px-10 py-5 rounded-2xl bg-white text-black font-bold hover:bg-[var(--accent-cyan)] transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)]"
-            >
-              <Mail className="w-5 h-5" />
-              {ui.contact}
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-
-            <div className="flex items-center gap-4">
-              {profiles.map((profile) => (
-                <a
-                  key={profile.network}
-                  href={profile.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex items-center justify-center w-14 h-14 rounded-2xl border border-white/10 hover:border-[var(--accent-cyan)]/50 hover:bg-white/5 transition-all duration-300"
-                >
-                  <span className="text-gray-400 group-hover:text-[var(--accent-cyan)] group-hover:scale-110 transition-all duration-300">
-                    {getIcon(profile.network)}
-                  </span>
-                </a>
-              ))}
-            </div>
-          </motion.div>
-        </div>
       </div>
+
+      {/* Scroll indicator */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+      >
+        <span className="text-mono text-[var(--gray)] uppercase">{data.ui.scroll || "Scroll"}</span>
+        <div className="w-px h-12 bg-gradient-to-b from-[var(--cyan)] to-transparent" />
+      </motion.div>
     </section>
   );
 }

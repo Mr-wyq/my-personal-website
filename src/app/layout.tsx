@@ -1,34 +1,40 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import resumeData from "../../data/resume.json";
 import { LanguageProvider } from "@/components/LanguageContext";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
+  variable: "--font-jbmono",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: `${resumeData.basics.name} | ${resumeData.basics.title}`,
-  description: resumeData.basics.summary,
+  title: "Rich.ai | AI 产品经理",
+  description: "Rich – AI 产品经理。四年产品沉淀，主导多款 AI 项目 0-1 落地。期待与优秀团队共同探索 AI 落地的无限可能。",
+  keywords: ["AI 产品经理", "AI PM", "Rich", "产品作品集", "LLM", "商业化落地"],
+  openGraph: {
+    title: "Rich.ai | AI 产品经理",
+    description: "Rich – AI 产品经理。四年产品沉淀，主导多款 AI 项目 0-1 落地。",
+    type: "website",
+  },
+  icons: {
+    icon: "/icon.png?v=3",
+    shortcut: "/icon.png?v=3",
+    apple: "/icon.png?v=3"
+  }
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="dark">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="zh" className={`${inter.variable} ${jetbrainsMono.variable}`}>
+      <body style={{ fontFamily: "var(--font-inter, var(--font-sans))" }}>
         <LanguageProvider>
           {children}
         </LanguageProvider>
