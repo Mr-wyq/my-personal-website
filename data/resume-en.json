@@ -9,9 +9,21 @@
     "phone": "13596288140",
     "location": "Shenzhen",
     "stats": [
-      { "label": "Experience", "value": "4+", "unit": "Years" },
-      { "label": "Product Landed", "value": "10+", "unit": "Projects" },
-      { "label": "Collaborated", "value": "500+", "unit": "Clients" }
+      {
+        "label": "Experience",
+        "value": "4+",
+        "unit": "Years"
+      },
+      {
+        "label": "Product Landed",
+        "value": "10+",
+        "unit": "Projects"
+      },
+      {
+        "label": "Collaborated",
+        "value": "500+",
+        "unit": "Clients"
+      }
     ],
     "profiles": [
       {
@@ -57,7 +69,7 @@
       "website": "https://www.colorlightinside.com/",
       "position": "Senior Product Manager",
       "startDate": "2023.11",
-      "endDate": "2025.05",
+      "endDate": "2025.03",
       "summary": "Responsible for strategic preliminary research of new business lines and architectural refactoring of the core product ecosystem, driving standardized transformation and efficiency upgrades of the business.",
       "highlights": [
         "Strategic Pre-research: Led market entry research for the new 'Professional Video Console' business. By comparing tech stacks and disassembling products of industry giants like Barco and Novastar, delivered research reports that provided core decision-making data support for the strategic layout of product lines.",
@@ -70,8 +82,8 @@
       "company": "Foxconn Technology Group",
       "website": "https://www.foxconn.com.cn/",
       "position": "AI Product Manager (Industrial Brain)",
-      "startDate": "2021.09",
-      "endDate": "2023.09",
+      "startDate": "2022.04",
+      "endDate": "2023.08",
       "summary": "Core Responsibility: Served the group's intelligent manufacturing and digital transformation, responsible for the commercial landing of AI technology in production, quality inspection, and smart wearable scenarios, driving the system from business research to stable mass production in a full-process closed loop.",
       "highlights": [
         "Industrial AI Full-Stack Landing: Led the landing and iteration of the image intelligent detection platform project. Built a complete AI closed loop system from data collection, storage, analysis to application. Deeply empowered the iPhone quality inspection production line through AI technology, achieving end-to-end landing of automated detection solutions, and driving the transition of the production line from experience-driven to algorithm-driven intelligent transformation.",
@@ -96,14 +108,45 @@
     "thesis": "Design and Development of 'Palm Classroom' Mobile APP"
   },
   "skills": {
-    "product": ["Product Planning", "Requirement Analysis", "PRD Design", "Product Roadmap", "Agile Management"],
-    "ai": ["AI Agent Design", "RAG System", "AI Workflow", "Model Evaluation"],
-    "tech": ["Transformer", "Prompt Engineering", "AI Architecture", "Vector DB"],
-    "tools": ["Figma", "Axure", "Antigravity", "ChatGPT", "Coze", "PingCode", "Openclaw"]
+    "product": [
+      "Product Planning",
+      "Requirement Analysis",
+      "PRD Design",
+      "Product Roadmap",
+      "Agile Management"
+    ],
+    "ai": [
+      "AI Agent Design",
+      "RAG System",
+      "AI Workflow",
+      "Model Evaluation"
+    ],
+    "tech": [
+      "Transformer",
+      "Prompt Engineering",
+      "AI Architecture",
+      "Vector DB"
+    ],
+    "tools": [
+      "Figma",
+      "Axure",
+      "Antigravity",
+      "ChatGPT",
+      "Coze",
+      "PingCode",
+      "Openclaw"
+    ]
   },
   "others": {
-    "hobbies": ["Billiards", "Reading", "Running", "Movies"],
-    "certs": ["Most Beautiful Volunteer (Anti-epidemic)"]
+    "hobbies": [
+      "Billiards",
+      "Reading",
+      "Running",
+      "Movies"
+    ],
+    "certs": [
+      "Most Beautiful Volunteer (Anti-epidemic)"
+    ]
   },
   "projects": [
     {
@@ -113,7 +156,15 @@
       "officialLink": "",
       "icon": "Cpu",
       "description": "Q-Stream is an industrial-grade AI vision platform powered by YOLOv5 and massive data pipelines (Kafka/Hadoop). By integrating automated capture, distributed storage, and model analysis, it replaces traditional manual inspection to achieve 24/7 machine-level interception on iPhone production lines.",
-      "technologies": ["YOLOv5", "Kafka", "Hadoop", "Automated Collection", "Distributed Storage", "MES System", "Model Training"],
+      "technologies": [
+        "YOLOv5",
+        "Kafka",
+        "Hadoop",
+        "Automated Collection",
+        "Distributed Storage",
+        "MES System",
+        "Model Training"
+      ],
       "details": {
         "background": "The traditional manual quality inspection model suffered from low coverage, high misjudgment rates, and severely delayed interceptions. To support the group's 'Level 4 Benchmark Enterprise for Smart Manufacturing' strategy, it was urgent to overcome quality management bottlenecks in large-scale production environments through AI vision solutions.",
         "work": "**Industrial-Grade Data Pipeline Construction**: Led business scenario research, building point-to-end image collection and transmission networks from 0 to 1, achieving automated, high-reliability synchronization of massive production data.\n**Full-Stack Industrial AI Architecture Design**: Built a complete AI closed-loop system encompassing data collection, storage, analysis, and application. System judgment results precisely docked with the MES system.\n**Standardized Data Governance System**: Established rigorous image annotation specifications and acceptance processes, ensuring high-quality supply of algorithm training data through normalized governance to improve model robustness from the source.\n**Algorithm Tuning & Business Coupling**: Deeply participated in AI model evaluation and algorithm adaptation, collaborating with algorithm engineers to complete YOLOv5 model training, debugging, and deployment. Supported Double Check manual re-inspection logic to ensure extremely high accuracy of production interception.",
@@ -130,7 +181,13 @@
       "officialLink": "https://www.ripple-aistation.com/",
       "icon": "Layers",
       "description": "Ryypol is a private-deployment AI Agent development platform aimed at rapid Agent engineering through a low-code approach. Built with a workflow engine, multi-model management system, and rich MCP (Model Context Protocol) toolset, it enables users to quickly build logic-specific Agents via drag-and-drop.",
-      "technologies": ["Agent", "Low-Code", "Workflow Engine", "MCP Protocol", "Private Deployment"],
+      "technologies": [
+        "Agent",
+        "Low-Code",
+        "Workflow Engine",
+        "MCP Protocol",
+        "Private Deployment"
+      ],
       "details": {
         "background": "2025 marked the first year of the global Agent explosion, and the market urgently needed an intelligent base capable of landing in private scenarios. At a critical window for Series A funding, the company urgently needed a highly technical, standardized 'flagship product' to validate the business model and impress investors. In this context, I led the Ryypol project, aiming to create a hardware-software synergistic, plug-and-play local Agent development base as the core strategic bargaining chip for funding.",
         "work": "**System Planning & Architecture Design**: Responsible for overall product architecture design, formulating the long-term Roadmap, and defining the core feature set for the MVP (Minimum Viable Product) based on the funding schedule.\n**Team Management & Process Control**: Organized and coordinated cross-functional resources including product, R&D, testing, and algorithms. Managed the entire product lifecycle from requirements and design to R&D and delivery.\n**Exhibition Prep & Product Evangelism**: Prepared and organized participation in industry exhibitions like Apsara Conference and CIIE. Served as the lead product evangelist, pitching the product to investment institutions, partners, and benchmark clients.",
@@ -145,7 +202,12 @@
       "status": "Deployed",
       "icon": "Layout",
       "description": "'Wukong' is a smart glass designed specifically for industrial fields. By integrating features like 'video collaboration', it enables efficient synergy between frontline engineers and remote experts, creating a digitized 'on-site external brain' for industrial scenarios.",
-      "technologies": ["AR Wearable", "Video Collaboration", "Enterprise Comm", "Quality Control"],
+      "technologies": [
+        "AR Wearable",
+        "Video Collaboration",
+        "Enterprise Comm",
+        "Quality Control"
+      ],
       "details": {
         "background": "To respond to the group's 'Digital Factory' strategy and simultaneously enhance core competitiveness to secure Apple Vision Pro production orders, the group decided to self-develop a hardware-software integrated industrial glasses solution.",
         "work": "**Design Industrial Glasses Software**: Led the design and R&D of 'Enterprise Communication' and 'Video Collaboration' applications, solving the need for real-time guidance from remote experts to frontline operations in complex environments.\n**Build Glasses Comm Network**: Coordinated system, network, and development resources to build and optimize the group's internal exclusive communication network for smart glasses from 0 to 1, ensuring highly reliable and low-latency data transmission.\n**Industrial Glasses Quality Control**: Collaborated with the QA team to complete multiple rounds of functional stability stress testing and system performance evaluation, ensuring the product's stable operation under extreme industrial environments.",
@@ -159,7 +221,12 @@
       "officialLink": "https://www.colorlightinside.com/",
       "icon": "Database",
       "description": "iSet 7.0 is a comprehensive architectural rewrite and experience upgrade for the company's core LED display control system. By refactoring the software's underlying logic and interaction system, it solves the pain points of long-term maintenance difficulties and high failure rates, establishing a standardized full-lifecycle R&D process.",
-      "technologies": ["Architecture Rewrite", "Logic Refactoring", "SDLC Standards", "UX Interaction"],
+      "technologies": [
+        "Architecture Rewrite",
+        "Logic Refactoring",
+        "SDLC Standards",
+        "UX Interaction"
+      ],
       "details": {
         "background": "The original system had been in use for years, burdened with severe legacy issues such as code redundancy, missing documentation, and functional distortion, leading to extremely high maintenance costs. Frequent system failures caused a surge in customer complaints, urgently requiring a refactor to enhance product reliability, maintainability, and user interaction experience.",
         "work": "**Business Logic Tracing and Disassembly**: Deeply investigated the functional logic of the legacy system, completed reverse tracing of core business flows, accurately located architectural defects, and output standardized functional specification documents.\n**Product Refactoring and Interaction Definition**: Responsible for the software product design of the new system, redefining the product's functional architecture and interface interaction logic, and output high-quality Product Requirements Documents (PRD).\n**R&D Process Systematization**: Formulated standardized software development specifications covering the entire process from requirements gathering, analysis, and development to acceptance, driving the department's R&D system to transition from 'experience-driven' to 'process-driven'.",
@@ -173,7 +240,12 @@
       "status": "Completed",
       "icon": "Layout",
       "description": "Responsible for the early product definition of the company's first professional-grade video console (used for large-screen switching control in concerts/galas). By comprehensively benchmarking against top global manufacturers' solutions, it fills the company's business gap in the high-end entertainment display control market.",
-      "technologies": ["Competitor Benchmarking", "Business Flow Mapping", "Team Enablement", "Strategic Planning"],
+      "technologies": [
+        "Competitor Benchmarking",
+        "Business Flow Mapping",
+        "Team Enablement",
+        "Strategic Planning"
+      ],
       "details": {
         "background": "To fill the business gap, the company targeted the high-end entertainment and large-scale broadcasting subdivision track, breaking technical barriers to build a full-scenario display control ecosystem. Against the oligopolistic landscape of the existing market, we sought differentiated competitive opportunities and technical breakthroughs through in-depth pre-research.",
         "work": "**Top Global Competitor Benchmarking**: Deeply dismantled the hardware specifications and software system architectures of industry-leading products like Barco, Analog Way, and NovaStar, outputting a 10,000+ word research report.\n**Comprehensive Business Flow Reverse Engineering**: Through reverse analysis and scenario simulation, restored the underlying business flow of on-site entertainment broadcasting for video scheduling, layer management, and transition effects.\n**Team Business Knowledge Enablement**: Accumulated multiple high-quality product definition documents and organized cross-departmental product training to establish standardized awareness of video console business among the R&D team.",

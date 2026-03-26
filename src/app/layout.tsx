@@ -31,12 +31,15 @@ export const metadata: Metadata = {
   }
 };
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh" className={`${inter.variable} ${jetbrainsMono.variable}`}>
       <body style={{ fontFamily: "var(--font-inter, var(--font-sans))" }}>
         <LanguageProvider>
           {children}
+          <Analytics />
         </LanguageProvider>
       </body>
     </html>
